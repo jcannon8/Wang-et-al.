@@ -1,2 +1,2 @@
-# Wang-et-al.
-TCR activation repositions Nck and Lck binding sites
+# Wang et al.
+Supplementary information for TCR activation repositions Nck and Lck binding sites
