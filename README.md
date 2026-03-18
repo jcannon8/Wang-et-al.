@@ -1,3 +1,10 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:bb8a47b04957471375f13128f4ca855908d677f283b51d9515ae9947a7d213dd
-size 523
+# TCR activation repositions Nck and Lck binding sites Supplementary information 
+**Build** Files and scripts to build models  
+makeTorsions.cpp: Write tleap impose statements based on HGBLE string.  
+makeHGBLE.cpp : Output random HGBLE string based on sequence and frequency table.  
+HGBLEfreq2: Secondary structure frequencies for IDR's.  
+
+**Run** Job scripts to run MD of models  
+tcr33minR.sh: Minimization of tcr33b,c,s and tcr35s on Rockfish.
+
+**Examples** Eight TCR and TCR-GOF structures at 425 ns from figure 14.
