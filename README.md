@@ -9,7 +9,7 @@ thread2.tcl: Detect threading through Pro, Tyr, His, and Trp sidechains in edt m
 
 **Run** Job scripts to run MD of models  
 tcr33minR.sh: Minimization of tcr33b,c,s and tcr35s on Rockfish.  
-edt5min.sh: Minimization of edt.* on Rockfish 
+edt5min.sh: Minimization of edt.* on Rockfish  
 edtNPT2.sh: continue 5 ns NPT of edt models on Rockfish  
 
 **Examples** Eight TCR and TCR-GOF structures at 425 ns from figure 14.
