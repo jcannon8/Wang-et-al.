@@ -14,3 +14,6 @@ edtNPT4.sh: Heat and two 500 ps NPT of edt models on Expanse
 edtNPT2.sh: continue 5 ns NPT of edt models on Rockfish 
 
 **Examples** Eight TCR and TCR-GOF structures at 425 ns from figure 14.
+
+**Analyze** Analysis scripts  
+anEdt1.tcl: Cluster analysis of edt ensemble
