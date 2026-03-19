@@ -15,7 +15,7 @@ package require psfgen
 # Autoimage using chain E anchor to bring the most water into cytoplasm.
 set tcr2 [mol new /t/tcr16/charm-gui8/amber/step5_input.psf ]
 mol addfile /t/tcr16/charm-gui8/amber/cd3edm.ref1.pdb waitfor all
-# That psf marks chains by segid.
+# That psf marks chains by segid. E=CD3 epsilon, D=CD3 delta, K=Nck
 # chain E: segid PROA, Met600-Ile682; chain D: segid PROB, Glu285-Lys358
 # chain K: segid PROC, Glu31-Lys86
 set nckAll [atomselect $tcr2 "segid PROC"]
