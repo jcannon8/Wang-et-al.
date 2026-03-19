@@ -8,6 +8,7 @@ makeCDed4.tcl: Make CD3 epsilon-delta dimers with random CTs fused to truncated 
 thread2.tcl: Detect threading through Pro, Tyr, His, and Trp sidechains in edt models.
 
 **Run** Job scripts to run MD of models  
-tcr33minR.sh: Minimization of tcr33b,c,s and tcr35s on Rockfish.
+tcr33minR.sh: Minimization of tcr33b,c,s and tcr35s on Rockfish.  
+edt5min.sh: Minimization of edt.* on Rockfish  
 
 **Examples** Eight TCR and TCR-GOF structures at 425 ns from figure 14.
