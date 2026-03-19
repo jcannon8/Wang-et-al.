@@ -9,6 +9,7 @@ makeCDed4.tcl: Make CD3 epsilon-delta (edt) dimers with random CTs fused to trun
 thread2.tcl: Detect threading through Pro, Tyr, His, and Trp sidechains in edt models.  
 makeEdn3.tcl: Make CD3 epsilon-delta (edn) dimers with random CTs fused to truncated subunits with Nck bound to CD3 epsilon PRS.  
 CD3edt4.psf, CD3edt4.ref2.pdb: Parent of edt dimers used by makeCDed4.tcl  
+step5_input.psf, cd3edm.ref1.pdb: Parent of edm dimers used by makeEdn3.tcl. Edm used 2jxb3.c0 Nck-PRS.  
 
 **Run** Job scripts to run MD of models  
 tcr33minR.sh: Minimization of tcr33b,c,s and tcr35s on Rockfish.  
