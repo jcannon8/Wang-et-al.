@@ -4,9 +4,10 @@ makeTorsions.cpp: Write tleap impose statements based on HGBLE string.
 makeHGBLE.cpp : Output random HGBLE string based on sequence and frequency table.  
 HGBLEfreq2: Secondary structure frequencies for IDR's.  
 MakeEpsilon.sh: Create random CD3epsilon cytoplamsic domain models.  
-makeCDed4.tcl: Make CD3 epsilon-delta dimers with random CTs fused to truncated subunits.  
+makeCDed4.tcl: Make CD3 epsilon-delta (edt) dimers with random CTs fused to truncated subunits.  
 thread2.tcl: Detect threading through Pro, Tyr, His, and Trp sidechains in edt models.  
-makeEdn3.tcl: Make CD3 epsilon-delta dimers with random CTs fused to truncated subunits with Nck bound to CD3 epsilon PRS.
+makeEdn3.tcl: Make CD3 epsilon-delta (edn) dimers with random CTs fused to truncated subunits with Nck bound to CD3 epsilon PRS.
+CD3edt4.psf, CD3edt4.ref2.pdb: Parent of edt dimers used by makeCDed4.tcl  
 
 **Run** Job scripts to run MD of models  
 tcr33minR.sh: Minimization of tcr33b,c,s and tcr35s on Rockfish.  
