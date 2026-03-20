@@ -1,6 +1,11 @@
 // makeHGBLE.cpp : Output random HGBLE string based on sequence and 
-// frequency table.
-// John F. Cannon 5-15-13
+// frequency table. John F. Cannon 5-15-13
+
+// Table HGBLEfreq2 has frequencies of HGBLE secondary structure reduced 
+// (extended increased) for unstructured proteins from
+// Karplus PA. Experimentally observed conformation-dependent geometry and 
+// hidden strain in proteins. Protein Sci. 1996 Jul;5(7):1406-20. 
+// doi: 10.1002/pro.5560050719. PMID: 8819173; PMCID: PMC2143451.
 #include "stdafx.h"
 #include <malloc.h>
 #include <stdlib.h>
