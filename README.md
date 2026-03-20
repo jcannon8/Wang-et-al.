@@ -11,7 +11,7 @@ makeEdn2.tcl: Make CD3 epsilon-delta (edn) dimers with random CTs fused to trunc
 makeEdn3.tcl: Make CD3 epsilon-delta (edr) dimers with random CTs fused to truncated subunits with Nck bound to CD3 epsilon PRS.  
 CD3edt4.psf, CD3edt4.ref2.pdb: Parent of edt dimers used by makeCDed4.tcl.  
 cd3edn.psf, cd3edn.ref1.pdb: Parent of edn dimers used by makeEdn2.tcl.   
-step5_input.psf, cd3edm.ref1.pdb: Parent of edm dimers used by makeEdn3.tcl. Edm used 2jxb3.c0 Nck-PRS.  
+step5_input.psf, cd3edm.ref1.pdb: Parent of edm dimers used by makeEdn3.tcl. Edm used 2jxb3.c0 Nck-PRS.   
 anNck3.sh: Build edr Nck-PRS interaction restraints.
 
 **Run** Job scripts to run MD of models  
