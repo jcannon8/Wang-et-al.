@@ -1,6 +1,6 @@
 #!/bin/bash
 # runLck.sh: Run 100 ns of explicit solvent Lck-peptide model at 310 K.
-# This has the Lck bound CD3? Tyr111 15-residue ITAM from Neel Shah.
+# This has the Lck bound CD3ζ Tyr111 15-residue ITAM from Neel Shah.
 cd lck
 name=lckPep
 # Trim away offending hydrogens
