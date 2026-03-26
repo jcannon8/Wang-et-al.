@@ -195,6 +195,12 @@ patch DISU N:164 N:229
 patch DISU N:264 M:227
 # Very important to add missing H atom coordinates for mutant residues.
 guesscoord
+# December 16, 2023 John Cannon
+# The above does not add the SM-SM angle and dihedral parameters, only bond
+# paramters. That omission is OK for MD less that 1000 ns used in this work. 
+# Models for longer MD should add "regenerate angles" and 
+# "regenerate dihedrals" psfgen commands to add them.
+# Online psfgen tutorials overlooked that.
 writepsf $outMod.psf
 writepdb $outMod.pdb
 # Check charge to see if ions need alteration.
