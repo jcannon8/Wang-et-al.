@@ -4,6 +4,7 @@ cd /t/tcr39an
 set m tcr39; # ensemble name, =tcr38 for tcr38b; =tcr39 for tcr39b
 set j 0;  # model name for EFDG CD3 CTs
 set k 21; # model name for AB CD3 CTs
+# Scripts anTcr38rep1.tcl and anTcr38=9rep1.tcl make tcr38b85.dat and tcr39b85.dat.
 # Use data from tcr38b85.dat or tcr39b85.dat to choose interesting models.
 # Example line from tcr39b85.dat:
 #  0.10 |  0  8.06 |  0  7.09 | A142 10.34 | A83-DPPC O14 | A123-DOPE N | 
