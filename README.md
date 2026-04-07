@@ -9,7 +9,7 @@ This repository contains enhanced methods, example scripts, and data from the st
 ***Directories***  
 **/Build:** Files and scripts to build models  
 **/Run:** Job scripts to run molecular dynamics of models  
-**/Examples:** Coordiantes and topology files for some MD models  
+**/Examples:** Coordinates and topology files for some MD models  
 **/Analyze:** Analysis scripts  
 **/Figures:** Scripts to build figures of the paper  
 
