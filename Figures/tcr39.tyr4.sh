@@ -1,4 +1,4 @@
-# tcr39.tyr4.sh: Plot tcr39*.** Tyr to membrane distances (Fig 13 A-D).
+# tcr39.tyr4.sh: Plot tcr39.*.** Tyr to membrane distances (Fig 13 A-D).
 # Derived from Gnuplot_LWv2_tcr38Box.sh Written by Liangyu Wang
 cd /home/wangly/tyr_analysis/NoImage_Test
 gnuplot<<eof
