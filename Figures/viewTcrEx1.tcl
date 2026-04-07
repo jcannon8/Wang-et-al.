@@ -1,4 +1,4 @@
-# viewTcrEx1.tcl: Render example tcr38b and tcr39b models (Fig 14).
+# viewTcrEx1.tcl: Render example tcr38.*.** and tcr39.*.** models (Fig 14).
 # use vmd on Eire
 cd /t/tcr39an
 set m tcr39; # ensemble name, =tcr38 for tcr38b; =tcr39 for tcr39b
