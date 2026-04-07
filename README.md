@@ -6,7 +6,7 @@ This repository contains enhanced methods, example scripts, and data from the st
 **Summary of models:** A version of Table 2 from the paper, which describes the CD3εδ, CD3εγ dimer, TCR, and TCR-GOF models and ensembles. It includes model names, which were file names for models within ensembles.   
 **File list:** A list of files within the directories of this repository 
 
-***Directories***
+***Directories***  
 **/Build:** Files and scripts to build models  
 **/Run:** Job scripts to run molecular dynamics of models  
 **/Examples:** Coordiantes and topology files for some MD models  
