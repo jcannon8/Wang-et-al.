@@ -1,4 +1,4 @@
-# anTcr39itam1.sh: Compare ITAM Tyr to membrane distances for tcr39b and tcr38b (Fig 13E,F).
+# anTcr39itam1.sh: Compare ITAM Tyr to membrane distances for tcr39*.** and tcr38*.** (Fig 13E,F).
 # https://cran.r-project.org/doc/contrib/Short-refcard.pdf
 # https://cran.r-project.org/doc/manuals/r-release/R-intro.html
 #
