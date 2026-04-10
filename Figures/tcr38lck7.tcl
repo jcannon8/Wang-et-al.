@@ -1,4 +1,4 @@
-# tcr38lck7.tcl: Plot Lck binding criteria for each ITAM (Fig 16C-G).
+# tcr38lck7.tcl: Plot Lck binding criteria for each ITAM (Fig 15C-G).
 # Uses data from tcr38lck2.tcl
 # derived from tcr38lck6.tcl
 # This uses different fill patterns and consistent TCR red, TCR-GOF blue
