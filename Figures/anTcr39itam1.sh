@@ -1,4 +1,4 @@
-# anTcr39itam1.sh: Compare ITAM Tyr to membrane distances for tcr39*.** and tcr38*.** (Fig 13E,F).
+# anTcr39itam1.sh: Compare ITAM Tyr to membrane distances for tcr39*.** and tcr38*.** (Fig 12E,F).
 # https://cran.r-project.org/doc/contrib/Short-refcard.pdf
 # https://cran.r-project.org/doc/manuals/r-release/R-intro.html
 #
@@ -52,7 +52,7 @@ write.table(d,"tcrTyr85.dat",quote=FALSE,row.names=FALSE,col.names=FALSE)
 q()
 ###########################################################
 # Plot with linear Y-axis with log(p-value)
-# Fig 13E, F
+# Fig 12E, F
 cd /home/wangly/tyr_analysis
 gnuplot<<"eof"
 set term jpeg font "arial.ttf,18" size 2000,750
@@ -90,3 +90,5 @@ set title "{/:Bold Comparison at 425 ns}" offset 0,-1.5
 file="/home/wangly/tyr_analysis/tcrTyr85.dat"
 replot
 eof
+
+
