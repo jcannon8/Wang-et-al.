@@ -41,7 +41,7 @@ plot '/t/tcr38an/tcr38lck4.dat' using (100*$11/2604) ls 1 fs pattern 4 t "0-225 
 eof
 ###########################################################
 # Lck binding criteria for each ITAM for
-# Fig 16D: Favorable RMSD 
+# Fig 15D: Favorable RMSD 
 gnuplot<<"eof"
 set term jpeg font "arial.ttf,18" size 1000,750
 set out 'tcr.lck7d.jpg'
@@ -77,7 +77,7 @@ plot '/t/tcr38an/tcr38lck4.dat' using (100*$3/2604) ls 1 fs pattern 4 t "0-225 n
 '' u (100*$4/2480) ls 1 fs pattern 3 t "225-425 ns"
 eof
 ###########################################################
-# Fig 16E: No ITAM collision
+# Fig 15E: No ITAM collision
 gnuplot<<"eof"
 set term jpeg font "arial.ttf,18" size 1000,750
 set out 'tcr.lck6e.jpg'
@@ -113,7 +113,7 @@ plot '/t/tcr38an/tcr38lck4.dat' using (100*$5/2604) ls 1 fs pattern 4 t "0-225 n
 '' u (100*$6/2480) ls 1 fs pattern 3 t "225-425 ns"
 eof
 ###########################################################
-# Fig 16F: ITAM no CT collision
+# Fig 15F: ITAM no CT collision
 gnuplot<<"eof"
 set term jpeg font "arial.ttf,18" size 1000,750
 set out 'tcr.lck6f.jpg'
@@ -149,7 +149,7 @@ plot '/t/tcr38an/tcr38lck4.dat' using (100*$7/2604) ls 1 fs pattern 4 t "0-225 n
 '' u (100*$8/2480) ls 1 fs pattern 3 t "225-425 ns"
 eof
 ###########################################################
-# F 16G: No membrane collision
+# F 15G: No membrane collision
 gnuplot<<"eof"
 set term jpeg font "arial.ttf,18" size 1000,750
 set out 'tcr.lck6g.jpg'
@@ -184,3 +184,5 @@ set title "{/:Bold TCR-GOF Lck ITAM no membrane collision}" tc rgb "blue"
 plot '/t/tcr38an/tcr38lck4.dat' using (100*$9/2604) ls 1 fs pattern 4 t "0-225 ns",\
 '' u (100*$10/2480) ls 1 fs pattern 3 t "225-425 ns"
 eof
+
+
