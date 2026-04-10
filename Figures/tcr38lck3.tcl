@@ -1,4 +1,4 @@
-# tcr38lck3.tcl: Plot Lck binding to tcr38.*.**, tcr39.*.** (Fig 16A,B).
+# tcr38lck3.tcl: Plot Lck binding to tcr38b, tcr39b (Fig 15A,B).
 # Using data from tcr38lck2.tcl
 # Example of tcr38lck2.dat output:
 #   tcr38.0.00   8 A  153  3.12    9.57    9.45
@@ -51,7 +51,7 @@ close $outA; close $outB; close $outC
 eof
 ###########################################################
 # Plot tcr39b and tcr38b Lck binding averages for Figure TcrLck2 A
-# Fig 16A
+# Fig 15A
 gnuplot<<eof
 set term jpeg font "arial.ttf,18" size 500,375
 set out 'tcr.lck3.jpg'
@@ -145,4 +145,5 @@ quit
 eof
 ###########################################################
 # More extensive Figure 15 C-G plots in tcr38lck7.tcl 
+
 
