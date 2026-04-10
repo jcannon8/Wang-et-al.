@@ -1,4 +1,4 @@
-# anTcr39nck2.tcl: Plot Nck binding to tcr39*.** (Fig 15).
+# anTcr39nck2.tcl: Plot Nck binding to tcr39*.** (Fig 14).
 # Similar to anTcr39e.tcl
 # vmd -dispdev none
 # Collisons are heavy atoms less than or equal to 1.0 angstroms.
@@ -79,7 +79,7 @@ close $out; close $outE; close $outF
 ###########################################################
 # Plot tcr39b and tcr38b Nck binding averages 
 # With all criteria for each dimer, four panels.
-# Figure 15A,B
+# Figure 14A,B
 gnuplot<<eof
 set term jpeg font "arial.ttf,18" size 1000,750
 set out 'tcr3938b.sum9.jpg'
@@ -132,7 +132,7 @@ eof
 ###########################################################
 # Plot tcr39b and tcr38b Nck binding averages
 # With all criteria for each dimer, four panels.
-# Figure 15C
+# Figure 14C
 gnuplot<<eof
 set term jpeg font "arial.ttf,18" size 1000,375
 set out 'tcr3938c.sum9.jpg'
@@ -238,7 +238,7 @@ t.test(f38[i,],f39[i,])$p.value-> f[i]
 t.test(e38[i,],e39[i,])
 ###########################################################
 # Plot tcr39b and tcr38b Nck to membrane averages
-# Figure 15D,E
+# Figure 14D,E
 gnuplot<<eof
 set term jpeg font "arial.ttf,18" size 1000,750
 set out 'tcr.nck4.sum9.jpg'
