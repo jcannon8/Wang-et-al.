@@ -1,4 +1,4 @@
-# anTcr38k.tcl: PLot tcr38.*.** & tcr39.*.** lipid distribution (Fig 18).
+# anTcr38k.tcl: PLot tcr38.*.** & tcr39.*.** lipid distribution (Fig 17).
 # Single 405 ns (eq85) frame analyzed.
 # vmd -dispdev none
 cd /t/tcr38an
